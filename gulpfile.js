@@ -66,6 +66,11 @@ gulp.task("html:update", ["html:copy"], function(done) {
   done();
 });
 
+gulp.task('scripts', function(){
+  return gulp.src(("build/js/**/*.{js}"))
+    .pipe(gulp.dest('build/js'));
+});
+
 gulp.task("serve", function() {
   server.init({
     server: "build/",
@@ -76,6 +81,7 @@ gulp.task("serve", function() {
   });
 
   gulp.watch("sass/**/*.{scss,sass}", ["style"]);
+  gulp.watch("js/**/*.{js}", ["scripts"]);
   gulp.watch("*.html", ["html:update"]);
 })
 
