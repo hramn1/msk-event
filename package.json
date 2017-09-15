@@ -41,6 +41,7 @@
   },
   "dependencies": {
     "del": "^3.0.0",
+    "popper.js": "^1.12.5",
     "rename": "^1.0.4"
   }
 }
