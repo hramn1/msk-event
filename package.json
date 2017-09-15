@@ -37,7 +37,7 @@
     "sass/**/*.{sass,scss}"
   ],
   "engines": {
-    "node": "6.10"
+    "node": "8.0"
   },
   "dependencies": {
     "del": "^3.0.0",
