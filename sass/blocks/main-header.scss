@@ -1,5 +1,32 @@
 .main-header{
 	height: 400px;
 	background-color: $header-color;
-	border-bottom: 2px solid #fdfdfd;
+	border-bottom: 2px solid $color-text-white;
+	.fa {
+		color: $color-text-white;
+	}
 } 
+.navbar-brand{
+	text-transform: uppercase;
+	font-size: 150%;
+  font-family: 'Sedgwick Ave Display', cursive;
+}
+.user-contact{
+	margin-left:auto;
+}
+.contact-phone{
+	padding-right:15px;
+	position: relative;
+	&::after{
+		content: "";
+		position: absolute;
+		width: 2px;
+		height: 100%;
+		background-color: $blue-color;
+		margin-left: 5px;
+	}
+}
+.cart{
+	color: $color-text-white;
+	margin-left:5px;
+}
