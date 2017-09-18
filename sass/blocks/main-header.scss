@@ -1,6 +1,10 @@
 .main-header{
-	height: 400px;
+	height: 500px;
 	background-color: $header-color;
+	background-image: url("/img/bg-msk.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 50%;
 	border-bottom: 2px solid $color-text-white;
 	.fa {
 		color: $color-text-white;

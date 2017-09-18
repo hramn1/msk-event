@@ -1,0 +1,39 @@
+.widget{
+	background-color: $grey-color;
+	padding: 30px 10px;
+}
+.widget-flip{
+	padding:5px;
+	border-radius:7px;
+	text-align: center;
+	position:relative;
+	height:250px;
+	transition: 1s; /* Время вращения */
+	transform-style: preserve-3d;
+	&:hover{
+		transform: rotateY(180deg);
+	}
+	&__image{
+		border-radius:5px;
+		width:80%;
+		height: auto;
+		margin-top: 5px;
+	}
+	&__text{
+		margin-top: 10px;
+		text-transform: uppercase;
+		font-weight: 700;
+	}
+} 
+.widget-block{
+	position: absolute;
+	top:0;
+	bottom:0;
+	&--back{
+		background: #4B846A; 
+    padding: 20px; 
+    color: #fff; 
+    transform: rotateY(180deg); 
+    backface-visibility: hidden; 
+	}
+}
