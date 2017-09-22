@@ -17,8 +17,10 @@
 	&__image{
 		border-radius:5px;
 		width:80%;
-		height: auto;
 		margin-top: 5px;
+		width: 80%;
+		height: 70%;
+		object-fit: scale-down;
 	}
 	&__text{
 		margin-top: 20px;
