@@ -1,0 +1,24 @@
+.catalog-block{
+	margin: 20px 5px 15px;
+	padding: 10px;
+	text-align: center;
+	box-sizing: border-box;
+	border: 1px solid transparent;
+	h2{
+		font-size: 1.25rem;
+		margin-top: 10px;
+	}
+	p{
+		margin-top: 10px;
+		padding:5px 10px;
+		margin-bottom: 0;
+	}
+	span{
+		color:red;
+		padding:5px 20px;
+	}
+	&:hover{
+		border:1px solid $header-color;
+		box-sizing: border-box;
+	}
+} 
