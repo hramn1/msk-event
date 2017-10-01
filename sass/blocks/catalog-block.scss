@@ -21,8 +21,12 @@
 		padding:5px 10px;
 		margin-bottom: 0;
 	}
+	img{
+		filter: grayscale(85%);
+		transition: 0.5s;
+	}
 	span{
-		color:red;
+		color:$red;
 		padding:5px 0;
 		text-align: center;
 		display: block;
@@ -32,5 +36,9 @@
 		box-sizing: border-box;
 		background-color: #dddddd;
 		transition: 0.5s;
+		img{
+			filter: grayscale(10%);
+			transition: 0.5s;
+		}
 	}
 } 
