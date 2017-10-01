@@ -1,6 +1,9 @@
 .widget{
 	background-color: $grey-color;
 	padding: 30px 10px;
+	background-image: url("/img/bg1.jpg");
+	background-size: 200px 200px;
+	background-repeat: repeat;
 }
 .widget-flip{
 	padding:15px 6px 7px ;
@@ -21,6 +24,8 @@
 		width: 80%;
 		height: 70%;
 		object-fit: scale-down;
+		filter: grayscale(40%);
+
 	}
 	&__text{
 		margin-top: 20px;
@@ -40,6 +45,14 @@
     color: #fff; 
     transform: rotateY(180deg); 
     backface-visibility: hidden; 
+	}
+}
+@media (max-width: 1200px) { 
+	.widget{
+		font-size: 0.65rem;
+		.btn{
+			font-size: 15px;
+		}
 	}
 }
 @media (max-width: 767px) { 

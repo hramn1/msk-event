@@ -1,6 +1,9 @@
 .footer{
 	background-color: #343a40;
-	padding: 25px 4px 20px;
+	background-image: url("/img/bg-footer.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 35px 5px 30px;
 	color: $color-text-white;
 	a{
 		color: $color-text-white;
