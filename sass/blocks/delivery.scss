@@ -7,9 +7,19 @@
 	}
 	&__transport{
 		padding:10px;
+		position: relative;
 		&__link{
 			margin-top: 45px;
 			font-size: 120%
+		}
+		&::after{
+			content: "";
+			position: absolute;
+			width:2px;
+			background-color: $color-text-white;
+			height: 100%;
+			top: -8px;
+			right: -70px;
 		}
 	}
 	&__payment{
@@ -18,7 +28,8 @@
 		ul{
 			padding:0;
 			text-align: left;
-			margin-left:70px;
+			width:250px;
+			margin:0 auto;
 			list-style: none;
 			font-size: 120%;
 		}

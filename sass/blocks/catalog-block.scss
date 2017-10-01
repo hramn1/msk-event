@@ -4,6 +4,7 @@
 	text-align: center;
 	box-sizing: border-box;
 	border: 1px solid transparent;
+	transition: 0.5s;
 	h2{
 		font-size: 1.25rem;
 		margin-top: 10px;
@@ -20,5 +21,7 @@
 	&:hover{
 		border:1px solid $header-color;
 		box-sizing: border-box;
+		background-color: #dddddd;
+		transition: 0.5s;
 	}
 } 

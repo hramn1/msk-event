@@ -42,3 +42,11 @@
     backface-visibility: hidden; 
 	}
 }
+@media (max-width: 767px) { 
+	.widget{
+		font-size: 0.7rem;
+		.btn{
+			font-size: 14px;
+		}
+	}
+}
