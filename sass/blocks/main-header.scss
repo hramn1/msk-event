@@ -58,12 +58,20 @@
 	margin:70px auto 40px;
 	padding:30px 0 20px;
 	text-align: center;
-	//background-color: rgba(255,255,255,0.4);
 	border-radius:10px;
 	color:$color-text-white;
 	text-transform: uppercase;
 	font-weight: 700;
 	line-height: 180%;
 	z-index: 120;
-	position: relative
+	position: relative;
+	@media(max-width:767px){
+		width:250px;
+		h2{
+			font-size: 1.4rem;
+		}
+		p{
+			font-size: 0.9rem;
+		}
+	}
 }
